@@ -30,3 +30,8 @@ https://courses.bootcampspot.com/courses/137/pages/18-dot-2-4-data-selection?mod
 
 ## 18.2.5
 https://courses.bootcampspot.com/courses/137/pages/18-dot-2-5-data-processing?module_item_id=12657
+
+## 18.3.2
+https://courses.bootcampspot.com/courses/137/pages/18-dot-3-2-k-means-algorithm?module_item_id=12661
+
+
