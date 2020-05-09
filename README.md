@@ -34,4 +34,12 @@ https://courses.bootcampspot.com/courses/137/pages/18-dot-2-5-data-processing?mo
 ## 18.3.2
 https://courses.bootcampspot.com/courses/137/pages/18-dot-3-2-k-means-algorithm?module_item_id=12661
 
+## 18.3.3
+https://courses.bootcampspot.com/courses/137/pages/18-dot-3-3-trial-and-error-of-finding-centroids?module_item_id=12662
+
+## 18.4.ALL
+
+# 18.5.2
+https://courses.bootcampspot.com/courses/137/pages/18-dot-5-2-principal-component-analysis?module_item_id=12668
+
 
