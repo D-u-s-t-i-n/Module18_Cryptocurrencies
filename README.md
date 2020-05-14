@@ -1,45 +1,23 @@
-# Module18_Cryptocurrencies
-## Module Notes
-conda install scikit-learn
-conda install plotly
-conda install -c pyviz hvplot
+# Module18 Challenge (Cryptocurrencies)
+## Preprocessing
+Involves data cleaning such as:
+ 1. Remove all cryptocurrencies that aren’t trading. 
+ 2. Remove all cryptocurrencies that don’t have an algorithm defined. 
+ 3. Remove the IsTrading column. 
+ 4. Remove all cryptocurrencies with at least one null value. 
+ 5. Remove all cryptocurrencies without coins mined. 
+ 6. Store the names of all cryptocurrencies on a DataFramed named coins_name, and use the crypto_df.index as the index for this new DataFrame. 
+ 7. Remove the CoinName column. 
+ 8. Create dummies variables for all of the text features, and store the resulting data on a DataFrame named X. 
+ 9. Use the StandardScaler from sklearn (Links to an external site.) to standardize all of the data from the X DataFrame. Remember, this is important prior to using PCA and K-means algorithms. 
 
-https://courses.bootcampspot.com/courses/137/files/26413/download?wrap=1
+## Reducing Data Dimensions Using PCA
+Reduce the dimensions of the X DataFrame down to three principal components.
 
-import pandas as pd
+## Clustering Cryptocurrencies Using K-means
+Using elbow curve and determined best K-value of 5.  
+KMeans algorithm was used to predict K clusters and create new dataframe clustered_df.
 
-file_path = "<folder path to stored data sets>/iris.csv"
-iris_df = pd.read_csv(file_path)
-iris_df.head()
-  
-  https://courses.bootcampspot.com/courses/137/pages/18-dot-2-2-pandas-refresher?module_item_id=12654
-  
-output_file_path = "<path to folder>/new_iris_data.csv"
-new_iris_df.to_csv(output_file_path, index=False)
-  
-  
-  https://courses.bootcampspot.com/courses/137/files/28110/download?wrap=1
-  
-  https://courses.bootcampspot.com/courses/137/pages/18-dot-2-3-preprocessing-data-with-pandas?module_item_id=12655
-  
-  ## 18.2.4
-# Columns
-df_shopping.columns
-
-https://courses.bootcampspot.com/courses/137/pages/18-dot-2-4-data-selection?module_item_id=12656
-
-## 18.2.5
-https://courses.bootcampspot.com/courses/137/pages/18-dot-2-5-data-processing?module_item_id=12657
-
-## 18.3.2
-https://courses.bootcampspot.com/courses/137/pages/18-dot-3-2-k-means-algorithm?module_item_id=12661
-
-## 18.3.3
-https://courses.bootcampspot.com/courses/137/pages/18-dot-3-3-trial-and-error-of-finding-centroids?module_item_id=12662
-
-## 18.4.ALL
-
-# 18.5.2
-https://courses.bootcampspot.com/courses/137/pages/18-dot-5-2-principal-component-analysis?module_item_id=12668
-
-
+## Visualizing Results
+3D Scatter plot shows the principal components are somewhat separated.  
+Table and scatter plot shows several coins that are mined. Most mined was BitTorrent.
