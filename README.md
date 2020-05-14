@@ -19,5 +19,5 @@ Using elbow curve and determined best K-value of 5.
 KMeans algorithm was used to predict K clusters and create new dataframe clustered_df.
 
 ## Visualizing Results
-3D Scatter plot shows the principal components are somewhat separated.  
-Table and scatter plot shows several coins that are mined. Most mined was BitTorrent.
+3D Scatter plot shows the principal component clusters.  
+Table and scatter plot shows several coins that are mined (majority skewed to left). Most mined was BitTorrent.
